@@ -26,7 +26,7 @@ $(document).ready(function() {
   // Get details from API server
   var getRemoteUrl = function() {
     console.log('Credentials - getting');
-    var api = 'https://droidconro.eu-gb.mybluemix.net?user=seiumdemo2015';
+    var api = 'https://droidconro.eu-gb.mybluemix.net?user=jsoxford2106';
     $.get(api, function(data) {
       localStorage.setItem('url', data.url);
       console.log('Credentials saved');
